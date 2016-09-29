@@ -22,20 +22,21 @@ var articles= {
      title: 'article two SaKthIgAnEsH',
      heading: 'article two',
      date: 'sep 30,2016',
-     content: <p>
+     content: `<p>
                 this is the content for my second article  this is the content for my second article article
+                </p>`
             
-            }
- var articlethree:{
+            },
+ var articlethree: {
      title: 'article three SaKthIgAnEsH',
      heading: 'article three',
      date: 'sep 31,2016',
-     content:<p>
+     content:`<p>
                 this is the content for my third article  this is the content for my thrid article article
-            
+            </p>`
             
      
- };
+ }
  `
      
  };
