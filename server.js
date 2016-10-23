@@ -11,16 +11,16 @@ var express = require('express');
  });
  
   app.get('/', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article one.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'articleone.html'));
  });
  
   app.get('/', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article two.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'articletwo.html'));
  });
  
  
   app.get('/', function (req, res) {
-   res.sendFile(path.join(__dirname, 'ui', 'article three.html'));
+   res.sendFile(path.join(__dirname, 'ui', 'articlethree.html'));
  });
  
  
